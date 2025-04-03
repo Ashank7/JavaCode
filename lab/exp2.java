@@ -1,4 +1,3 @@
-package lab;
 class Student2{
 	private String name,section;
 	private int rollnumber;
