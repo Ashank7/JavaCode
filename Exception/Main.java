@@ -10,6 +10,9 @@ public class Main {
       } catch (Exception e) {
       System.out.println(e);
       }
+      finally {
+      System.out.println("This is Finally Block");
+      }
    }
      public static void main(String [] args){
         logic1();
