@@ -13,11 +13,11 @@ class Stock {
 
   void Display(){
     if(this.id != 0){
+    System.out.println("------------------------------------------------");
     System.out.println("\nId of the Product is " +  this.id);
     System.out.println("\nName of the Product is " + this.name);
     System.out.println("\nQuanity of the Product is "+ this.quantity);
     System.out.println("\nPrice of the Product is " + this.price);
-    System.out.println("------------------------------------------------");
     }
   }
   void UpdateItem (int id,String name,int quantity,int price) {
@@ -62,15 +62,15 @@ public class Inventory_Management_System {
 
       sc.nextLine();
       
-      System.out.print("\nEnter the Name of " + (i+1) + " :- ");
+      System.out.print("\nEnter the Name of Product " + (i+1) + " :- ");
 
       String name = sc.nextLine();
 
-      System.out.print("\nEnter the Quantity of " + (i+1) + " :- ");
+      System.out.print("\nEnter the Quantity of Product " + (i+1) + " :- ");
 
       int quantity = sc.nextInt();
 
-      System.out.print("\nEnter the Price of " + (i+1) + " :- ");
+      System.out.print("\nEnter the Price of Product " + (i+1) + " :- ");
 
       int price = sc.nextInt();
 
@@ -99,11 +99,11 @@ public class Inventory_Management_System {
 
         String name = sc.nextLine();
 
-        System.out.print("\nEnter the New Quantity of " + " :- ");
+        System.out.print("\nEnter the New Quantity of Product " + " :- ");
 
         int quantity = sc.nextInt();
 
-        System.out.print("\nEnter the New Price of " + " :- ");
+        System.out.print("\nEnter the New Price of Product " + " :- ");
 
         int price = sc.nextInt();
             
